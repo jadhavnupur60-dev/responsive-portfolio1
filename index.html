@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nupur Jadhav's portfolio showcasing web development skills and projects." />
+  <title>Nupur Jadhav | Frontend Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home">NJ<span>.</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu"
+        aria-expanded="false" aria-controls="nav-links">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Nupur <span>Jadhav</span></h1>
+        <h2>Frontend Developer</h2>
+        <p class="hero-description">I build responsive websites and practical web applications. I enjoy learning new technologies and turning ideas into useful digital experiences.</p>
+        <div class="hero-actions">
+          <a class="button primary-button" href="#projects">Explore My Work</a>
+          <a class="button secondary-button" href="#contact">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="profile-circle">NJ</div>
+        <p class="hero-card-label">MY FOCUS</p>
+        <h3>Build. Learn. Improve.</h3>
+        <p>Creating user-friendly, responsive web experiences.</p>
+        <div class="status"><span></span> Open to opportunities</div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="about">
+      <div class="container">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <p>I am a web developer who enjoys building full-stack projects, solving programming problems, and improving my development skills.</p>
+          <p>My goal is to create accessible, responsive, and reliable applications while continuing to grow as a software developer.</p>
+        </div>
+        <div class="achievement-grid">
+          <article class="achievement-card"><h3>Web</h3><p>Frontend Development</p></article>
+          <article class="achievement-card"><h3>Code</h3><p>Problem Solving</p></article>
+          <article class="achievement-card"><h3>Learn</h3><p>Always Improving</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <p class="eyebrow">WHAT I WORK WITH</p>
+      <h2 class="section-title">My Skills</h2>
+      <p class="section-description">Technologies and tools I use to learn, build, and test applications.</p>
+      <div class="skills-grid">
+        <article class="skill-card"><h3>Frontend</h3><p>HTML5 · CSS3 · JavaScript · React · Bootstrap · Tailwind CSS</p></article>
+        <article class="skill-card"><h3>Backend</h3><p>Node.js · Express.js · REST APIs · Python</p></article>
+        <article class="skill-card"><h3>Database</h3><p>MongoDB · MySQL</p></article>
+        <article class="skill-card"><h3>Tools</h3><p>Git · GitHub · VS Code · Postman</p></article>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="projects">
+      <div class="container">
+        <p class="eyebrow">SOME OF MY WORK</p>
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-number">01</div><h3>CareerMatch AI</h3>
+            <p>An AI-powered resume analyzer that compares resumes with job descriptions and identifies matching skills and skill gaps.</p>
+            <div class="tag-list"><span>React</span><span>Node.js</span><span>MongoDB</span></div>
+            <a href="https://github.com/jadhavnupur60-dev/CareerMatchAI" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a>
+            <a href="https://careermatch-ai-1.onrender.com" target="_blank" rel="noopener noreferrer">Live Project ↗</a>
+          </article>
+          <article class="project-card">
+            <div class="project-number">02</div><h3>Audixa</h3>
+            <p>A voice-to-text application designed to help users convert speech into text and manage their written content.</p>
+            <div class="tag-list"><span>React</span><span>FastAPI</span><span>MySQL</span></div>
+            <a href="https://github.com/jadhavnupur60-dev/audixa" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a>
+          </article>
+          <article class="project-card">
+            <div class="project-number">03</div><h3>BookStore</h3>
+            <p>A web application project built to practice full-stack development and create a user-friendly browsing experience.</p>
+            <div class="tag-list"><span>React</span><span>Node.js</span><span>MongoDB</span></div>
+            <a href="https://github.com/jadhavnupur60-dev/bookstore_v2" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="contact">
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2 class="section-title">Contact Me</h2>
+      <p class="section-description">Interested in working together or discussing an opportunity? Feel free to connect with me.</p>
+      <div class="contact-actions">
+        <a class="button primary-button" href="mailto:jadhavnupur60@gmail.com">Email Me</a>
+        <a class="button secondary-button" href="https://github.com/jadhavnupur60-dev" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container"><p>© <span id="year"></span> Nupur Jadhav. Built with HTML, CSS &amp; JavaScript.</p></div>
+  </footer>
+</body>
+</html>
